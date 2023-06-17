@@ -17,11 +17,11 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%v is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("%v is zero\n");
+		printf("%d is zero\n");
 	}
 	return (0);
 }
