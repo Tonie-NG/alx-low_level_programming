@@ -7,6 +7,12 @@ int main(void)
 {
 	char hexNumber = '0';
 
+	while (hexNumber <= '9')
+	{
+		putchar(hexNumber);
+		hexNumber++;
+	}
+	hexNumber = 'a';
 	while (hexNumber <= f)
 	{
 		putchar(hexNumber);
