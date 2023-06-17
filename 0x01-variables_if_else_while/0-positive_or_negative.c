@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Entry Point
  * Return: 0 (Success)
@@ -21,6 +21,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%v is zero\n")
+		printf("%v is zero\n");
+	}
 	return (0);
 }
