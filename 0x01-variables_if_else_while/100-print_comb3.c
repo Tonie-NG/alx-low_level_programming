@@ -10,8 +10,8 @@ int main(void)
 
 	while (number1 < 10)
 	{
-		putchar('0' + digit1);
-		putchar('0' + digit2);
+		putchar('0' + number1);
+		putchar('0' + number2);
 
 		if (number1 < 9)
 		{
