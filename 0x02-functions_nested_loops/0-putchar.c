@@ -1,9 +1,18 @@
 #include "main.h"
-#include <unistd.h>
-/*
- * main - Entry point
- * Return - 0 (indicates success)
+/**
+ * main -  Entry point of the code
+ * Return: 0 to indicate success
  */
-int _putchar(char c)
+int main(void)
 {
-retu:
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+}
