@@ -11,9 +11,9 @@ int main(void)
 	{
 		if ((x % 3) == 0 || (x % 5) == 0)
 		{
-			b += a;
+			y += a;
 		}
 	}
-	printf("%d\n", b);
+	printf("%d\n", y);
 	return (0);
 }
