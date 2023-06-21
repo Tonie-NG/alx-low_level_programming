@@ -11,7 +11,7 @@ int main(void)
 	{
 		if ((x % 3) == 0 || (x % 5) == 0)
 		{
-			y += a;
+			y += x;
 		}
 	}
 	printf("%d\n", y);
