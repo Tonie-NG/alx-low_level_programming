@@ -15,6 +15,8 @@ int main(void)
 			printf(" Fizz");
 		else if (v % 5 == 0)
 			printf(" Buzz");
+		else if (v == 1)
+			printf("%d", v);
 		else
 			printf(" %d", v);
 	}
