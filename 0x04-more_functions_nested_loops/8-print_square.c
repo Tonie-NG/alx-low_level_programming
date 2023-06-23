@@ -6,7 +6,7 @@
  */
 void print_square(int size)
 {
-	int v t;
+	int v, t;
 
 	for (v = 0; v < size; v++)
 	{
