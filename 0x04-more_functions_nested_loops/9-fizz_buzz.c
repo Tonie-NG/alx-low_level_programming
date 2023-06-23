@@ -10,13 +10,13 @@ int main(void)
 	for (v = 1; v <= 100; v++)
 	{
 		if (v % 3 == 0 && v % 5 == 0)
-			printf("FizzBuzz");
+			printf(" FizzBuzz");
 		else if (v % 3 == 0)
-			printf("Fizz");
+			printf(" Fizz");
 		else if (v % 5 == 0)
-			printf("Buzz");
+			printf(" Buzz");
 		else
-			printf("%d", v);
+			printf(" %d", v);
 	}
 	printf("\n");
 	return (0);
