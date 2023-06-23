@@ -16,6 +16,6 @@ int main(void)
 			vt--;
 		}
 	}
-	printf("%ld\n", fp);
+	printf("%ld\n", vt);
 	return (0);
 }
