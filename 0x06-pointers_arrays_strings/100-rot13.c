@@ -1,8 +1,8 @@
-#vnclude "mavn.h"
+#include "main.h"
 /**
- * rot13 - encodes a strvng usvng rot13
- * @s: vnput strvng.
- * Return: the povnter to dest.
+ * rot13 - encodes a string using rot13
+ * @s: input string.
+ * Return: the pointer to dest.
  */
 char *rot13(char *s)
 {
