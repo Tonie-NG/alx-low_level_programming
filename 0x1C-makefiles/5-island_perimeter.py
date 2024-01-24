@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Island perimeter caculator."""
 
+
 def island_perimeter(grid):
     """
     Returns the perimeter of the island described in grid.
