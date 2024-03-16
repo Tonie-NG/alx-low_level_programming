@@ -10,29 +10,30 @@
  */
 int jump_search(int *array, size_t size, int value)
 {
-
 	int low, high;
 	size_t step;
-	int s;
 
 	if (array == NULL)
 	{
 		return (-1);
 	}
 	step = sqrt(size);
-	high = step, s = size, low = 0;
+	high = 0;
+
 	while (array[high] < value && step < size)
 	{
-		printf("Value checked array[%d] = [%d]\n", low, array[low]);
-		low = step;
+		printf("Value checked array[%d] = [%d]\n", high, array[high]);
+
+		low = high;
 		high += step;
-		if (high > (s - 1))
+		if (high > (int)size - 1)
 		{
-			return (-1);
+			break;
 		}
 	}
+
 	printf("Value found between indexes [%d] and [%d]\n", low, high);
-	while (low <= high)
+	while (low <= high && high < (int)size)
 	{
 		printf("Value checked array[%d] = [%d]\n", low, array[low]);
 		if (array[low] == value)
@@ -41,6 +42,7 @@ int jump_search(int *array, size_t size, int value)
 		}
 		low++;
 	}
+
 	return (-1);
 }
 
